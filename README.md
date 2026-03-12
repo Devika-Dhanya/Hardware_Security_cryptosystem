@@ -13,12 +13,12 @@ This hardware accelerator is designed to overcome the severe Electronic Design A
 To facilitate reproducibility, the repository is organized as follows:
 
 ```text
-├── hdl/                  # Synthesizable Verilog RTL source files
+├── RTL_Design_Files/                  # Synthesizable Verilog RTL source files
 │   ├── psc_accelerator.v             
 │   ├── sma_accelerator.v             
 │   ├── proposed_unmasked.v
 │   └── proposed_masked.v   
-├── sim/                  # Simulation environments and testbenches
+├── TB_files/                  # Simulation environments and testbenches
 │   └── tb.v              # Self-checking testbench for functional verification
 ├── scripts/              # Automation and analysis scripts
 │   ├── build.tcl         # Vivado TCL script for automated synthesis/implementation
